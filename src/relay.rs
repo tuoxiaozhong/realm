@@ -5,7 +5,7 @@ use std::error::Error;
 use std::net::{IpAddr, SocketAddr};
 use std::sync::{Arc, RwLock};
 use tokio;
-use tokio::io;
+// use tokio::io;
 use tokio::io::{AsyncWriteExt, AsyncReadExt};
 use tokio::net;
 
@@ -14,7 +14,7 @@ use crate::resolver;
 use crate::udp;
 use realm::RelayConfig;
 use tokio::net::tcp::{ReadHalf, WriteHalf};
-use std::fs::read;
+// use std::fs::read;
 
 // Initialize DNS recolver
 // Set up channel between listener and resolver
